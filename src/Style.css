@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap');
+
+* {
+    font-family: 'Poppins';
+}
+
+/* Login dan Sign Up */
+
+#secondHand {
+  position: absolute;
+  top: 35%;
+  left: 3%;
+  z-index: 1;
+}
+
+#imgRegister {
+  width: 580px;
+  height: 569px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.btnPurpleLg {
+  width: 100%;
+  background-color:#7126B5;
+  border-radius: 16px;
+  border-color: #7126B5;
+}
+
+.btnPurpleLg:hover  {
+  background-color: #A06ECE;
+  border-color: #A06ECE;
+}
+
+.btnPurpleLg:active:focus {
+  background-color: #4B1979;
+  border-color: #4B1979;
+}
+
+.loginText {
+  position: relative;
+  top: 15%;
+  right: 4%;
+}
+
+.signUpText {
+  position: relative;
+  top: 6%;
+  right: 4%;
+}
+
+.txtRegister {
+  text-align: center;
+}
+
+.btnLinkPurp {
+  color:#7126B5;
+}
+
+.btnLinkPurp:hover {
+  color:#A06ECE;
+}
+
+.btnLinkPurp:active:focus {
+  color: #4B1979;
+}
+
+.formRounded {
+  border-radius: 16px;
+}
+
+@media screen and (max-width : 767px) {
+  #imgRegister {
+    display: none;
+  }
+
+  #secondHand {
+    display: none;
+  }
+
+  .loginText  {
+    position: relative;
+    top: 30%;
+    right: 0%;
+  }
+
+  .signUpText {
+    position: relative;
+    top: 30%;
+    right: 0%;
+  }
+
+
+}
+
+@media screen and (min-width : 768px) and (max-width : 1024px) {
+
+  #imgRegister {
+      width: 50%;
+      height: 100%;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      bottom: 0px; 
+  }
+
+  #secondHand {
+    position: absolute;
+    top: 25%;
+    left: 3%;
+    z-index: 1;
+  }
+
+  .loginText {
+    position: relative;
+    top: 40%;
+    right: 1%;
+  } 
+
+  .signUpText {
+    position: relative;
+    top: 30%;
+    right: 0%;
+  }
+  
+}
